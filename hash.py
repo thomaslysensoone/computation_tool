@@ -23,7 +23,7 @@ def compute_hash(differences):
 
 img1 = imread('cat_reference.png')
 img2 = imread('cat_eye.png')
-img3 = imread('mickey.png')
+img3 = imread('pingouin1.png')
 
 # Convert the pictures to grey-scale
 greyscale_img1 = rgb2grey(img1)
