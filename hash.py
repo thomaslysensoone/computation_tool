@@ -36,9 +36,6 @@ resized_img2 = resize(greyscale_img2, (9,8))
 resized_img3 = resize(greyscale_img3, (9,8))
 
 # Compute the difference matrix
-differences = resized_img1 > resized_img2
-print(
-    'Hash of reference/closely-related to reference pictures is {}.'
-    .format(compute_hash(differences))
-)
-differences = resized_img1 > resized_img3
+differences1 = resized_img1 > resized_img2
+
+differences2 = resized_img1 > resized_img3
